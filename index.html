@@ -1,10 +1,129 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Завдання 1</title>
-</head>
-<BODY>
-<h1>Зміст документа HTML 5</h1>
-</body>
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="keywords" content="HTML, META, сторінка, лабораторна, самостійна">
+		<meta name="description" content="Персональна сторінка.">
+		<meta http-equiv="Refresh" content="60">
+		<meta http-equiv="expires" content="Mon, 19 Mar 2018 16:50:00 GMT">
+		<title>Сторінка</title>
+		<style>
+		body {
+			background: #707070 url("fon.jpg") no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+			padding: 10px;
+			font-family: "Trebuchet MS"
+		}
+		.info {
+			color: black;
+			float: right;
+			padding: 10px;
+			border: 2px solid black;
+			border-radius: 10px 0px;
+			height: 290px;
+			width: 49%;
+			margin-bottom: 125px;
+		}
+		.labs {
+			float: left;
+			padding: 10px;
+			border: 2px solid black;
+			border-radius: 0px 10px;
+			height: 290px;
+			width: 49%;
+		}
+		.footer {
+			background: rgba(112,112,112, 0.5);
+			padding: 10px;
+			border-top: 2px solid white;
+			border-bottom: 2px solid white;
+			width: 100%;
+			margin-bottom: 20px;
+			color: "white"
+		}
+		.proz {
+			opacity: 0.7;
+		}
+		
+		.proz:hover {
+			opacity: 1;
+		}
+		
+		.portfolio ul,
+		.portfolio li {
+		margin:0;
+		padding: 0;
+		}
+		
+		.portfolio li{
+		display: inline-block;
+		width: 100px;
+		position: relative;
+		}
+		
+		.portfolio img{
+		max-width: 100%;
+		opacity: 0.7;
+		}
+		
+		.descr {
+		position: absolute;
+		left: 0;
+		width: 0px;
+		height: 35px;
+		background-color: black;
+		opacity: 0;
+		color: white;
+		padding-top: 14px;
+		padding-right: 7px;
+		text-align: right;
+		transition: all 0.5s;
+		}
+		
+		.portfolio li:hover .descr {
+			display: block;
+			opacity: 0.4;
+			width: 100px;
+		}
+		</style>
+    </head>
+    <body>
+		<h1 align=center>Персональна сторінка</h1>
+		<hr>
+		<table class="info">
+			<tr><th><div align="left">Інформація про автора:</th></tr>
+			<tr><td><strong style="padding-left: 20px;">Фаринюк Анатолій Анатолійович</strong> - народився 26 липня 2000 року.<br> Навчаюсь в ХНУ. Спеціальність: Кібербезпека. Група: КБ-17-1.<br> Займаюсь програмуванням на мовах С, С++, Lua.<br><br><br><br><br><br><br><br>
+			<div class="portfolio">
+				<ul>
+					<li><a href="mailto:ednarsensetive@gmail.com" target="_blank"><img class="proz" src="gmail.png" width=50 height=50></a></li>
+					<li><a href="https://www.youtube.com/channel/UCYeK4pi3X0t0Ecg4pYQDBRA?view_as=subscriber" target="_blank"><img class="proz" src="youtube.png" width=50 height=50 style="padding-left: 10px"></a></li>
+					<li><a href="https://vk.com/afarinyuk" target="_blank"><img class="proz" src="vk.png" width=50 height=50 style="padding-left: 10px"></a></li>
+					<li><span class="descr">who?</span><img src="discord.png" width=50 height=50 style="padding-left: 10px"></li>
+					<li><img class="proz" src="facebook.png" width=50 height=50 style="padding-left: 10px"></li>
+				</ul>
+			</div>
+			</td></tr>
+		</table>
+		<!--<table class="labs">
+			<tr><th><div align="left">Завдання:</th></tr>
+			<tr><td><a href="C:\Users\User\Desktop\Лаба ІТ 1\Завдання 1.html"><b><u><font color=black>1. Перша Web-сторінка</font></u></b></td></tr>
+			<tr><td><a href="C:\Users\User\Desktop\Лаба ІТ 1\Завдання 2.html"><b><u><font color=black>2. Титульна сторінка для реферату</font></u></b></td></tr>
+			<tr><td><a href="C:\Users\User\Desktop\Лаба ІТ 1\Завдання 3.html"><b><u><font color=black>3. Web-сторінка 2</font></u></b></td></tr>
+			<tr><td><a href="C:\Users\User\Desktop\Лаба ІТ 1\Завдання 4.html"><b><u><font color=black>4. Використання заголовків</font></u></b></td></tr>
+			<tr><td><a href="C:\Users\User\Desktop\Лаба ІТ 1\Завдання 5.html"><b><u><font color=black>5. Використання горизонтальних ліній</font></u></b></td></tr>
+			<tr><td><a href="C:\Users\User\Desktop\Лаба ІТ 1\Завдання 6.html"><b><u><font color=black>6. Web-сторінка 6</font></u></b></td></tr>
+			<tr><td><a href="C:\Users\User\Desktop\Лаба ІТ 1\Завдання 7.html"><b><u><font color=black>8. Інформаційні технології</font></u></b></td></tr>
+			<tr><td><a href="C:\Users\User\Desktop\Лаба ІТ 1\Завдання 8.html"><b><u><font color=black>9. Технології</font></u></b></td></tr>
+			<tr><td><a href="C:\Users\User\Desktop\Лаба ІТ 1\Завдання 9.html"><b><u><font color=black>10. Перезагрузка сторінки</font></u></b></td></tr>
+			<tr><td><a href="C:\Users\User\Desktop\Лаба ІТ 1\Завдання 10.html"><b><u><font color=black>11. Вирівнювання тексту</font></u></b></td></tr>
+		</table>-->
+		<table class="footer" >
+			<tr><th><font color=white><div align=left>В сторінці присутні:</th></tr>
+			<tr><td><font color=white>¤ Інформація про автора сторінки: Фамілія, імя, по-батькові, дата народження, місце навчання, спеціальність, група, хобі.</td></tr>
+			<tr><td><font color=white>¤ Посилання на виконані завдання з лабораторної роботи.</td></tr>
+		</table>
+		<table class="footer">
+			<tr><td><font color=white>HTML (англ. HyperText Markup Language — Мова розмітки гіпертекстових документів) — стандартна мова розмітки веб-сторінок в Інтернеті. Більшість веб-сторінок створюються за допомогою мови HTML (або XHTML). Документ HTML оброблюється браузером та відтворюється на екрані у звичному для людини вигляді.</td></tr>
+		</table>
+    </body>
 </html>
