@@ -1,0 +1,102 @@
+﻿body {
+	font-family: "Trebuchet MS"
+}
+.shapka {
+	position: absolute;
+	background: black url("icons/fon.jpg") no-repeat;
+	background-size: 100% 735px;
+	top: 0;
+	left: 0;
+}
+.updown {
+	margin: 1px 1px;
+	position: fixed;
+	left: 0;
+	width: 46px;
+	height: 75px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 20px;
+	opacity: 0.8;
+}
+.info {
+	color: black;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 10px 0px;
+	height: 290px;
+	width: 760px;
+	margin-bottom: 125px;
+}
+.labs {
+	float: left;
+	padding: 10px;
+	border: 2px solid white;
+	border-radius: 0px 10px;
+	height: 290px;
+	width: 32%;
+	color: white;
+	margin-left: 15px;
+}
+.footer {
+	background: rgba(112,112,112, 0.5);
+	padding: 10px;
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
+	width: 100%;
+	margin-bottom: 20px;
+	color: white;
+}
+.proz {
+	opacity: 0.7;
+}
+.proz:hover {
+	opacity: 1;
+}
+.portfolio ul,
+.portfolio li {
+	margin:0;
+	padding: 0;
+}
+.portfolio li {
+	margin-left:10px;
+	padding: 0;
+}
+.portfolio li{
+	display: inline-block;
+	width: 90px;
+	position: relative;
+}
+.portfolio img{
+	max-width: 100%;
+	opacity: 0.7;
+}
+.descr {
+	position: absolute;
+	left: 0;
+	width: 0px;
+	height: 35px;
+	background-color: black;
+	border-radius: 20px;
+	opacity: 0;
+	color: white;
+	padding-top: 14px;
+	padding-right: 7px;
+	text-align: right;
+	transition: all 0.5s;
+}
+.portfolio li:hover .descr {
+	display: block;
+	opacity: 0.4;
+	width: 100px;
+}
+.up	{
+	padding-left: 7px;
+	padding-top: 2px;
+	position: fixed;
+}
+.down {
+	padding-left: 7px;
+	padding-top: 40px;
+	position: fixed;
+}
