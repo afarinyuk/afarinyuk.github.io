@@ -1,4 +1,4 @@
-﻿body {
+body {
 	font-family: "Trebuchet MS"
 }
 .shapka {
@@ -37,6 +37,7 @@
 	width: 32%;
 	color: white;
 	margin-left: 15px;
+	margin-bottom: 10px;
 }
 .footer {
 	background: rgba(112,112,112, 0.5);
@@ -99,4 +100,20 @@
 	padding-left: 7px;
 	padding-top: 40px;
 	position: fixed;
+}
+
+#mark4 {
+	font-family: Bring tha noize;
+	font-size: 35pt;
+	color: #ccff00;
+	padding-right: 15px;
+	float: right;
+}
+
+#mark5 {
+	font-family: Bring tha noize;
+	font-size: 35pt;
+	color: #15ff00;
+	padding-right: 15px;
+	float: right;
 }
