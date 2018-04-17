@@ -74,14 +74,14 @@ body {
 }
 .descr {
 	position: absolute;
-	left: 0;
+	left: 0px;
 	width: 0px;
-	height: 35px;
+	height: 44px;
 	background-color: black;
 	border-radius: 20px;
 	opacity: 0;
 	color: white;
-	padding-top: 14px;
+	padding-top: 6px;
 	padding-right: 7px;
 	text-align: right;
 	transition: all 0.5s;
